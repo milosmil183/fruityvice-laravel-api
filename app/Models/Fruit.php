@@ -21,10 +21,5 @@ class Fruit extends Model
         'genus',
         'order',
         'nutritions',
-        'carbohydrates',
-        'protein',
-        'fat',
-        'calories',
-        'sugar',
     ];
 }

@@ -19,11 +19,6 @@ return new class extends Migration
             $table->string('genus');
             $table->string('order');
             $table->string('nutritions');
-            $table->integer('carbohydrates');
-            $table->integer('protein');
-            $table->integer('fat');
-            $table->integer('calories');
-            $table->integer('sugar');
             $table->timestamps();
         });
     }
